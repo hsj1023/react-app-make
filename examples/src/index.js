@@ -3,7 +3,10 @@ import {render} from 'react-dom';
 import MyComponent from '../../src';
 
 const App = () => (
-  <MyComponent />
+  <div>
+    It just commit
+    <MyComponent />
+  </div>
 );
 
 render(<App />, document.getElementById('root'));
